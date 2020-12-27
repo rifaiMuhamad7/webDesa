@@ -1,0 +1,480 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+ *    v2.0 | 20110126
+ *       License: none (public domain)
+ *       */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style*/
+body {
+    background-image: url(../backgroundWeb/more-leaves.png);
+    font-family: sans-serif;
+    line-height: 27px;
+    font-size: 15px;
+}
+
+.topbar{
+    width: 100%;
+    height: 55px;
+    background-color: #07473e;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    border-bottom: 5px solid limegreen;
+    margin-bottom: 50px;
+}
+
+.vs ul li {
+    display: inline-block;
+    color: white;
+    float: right;
+    margin-right: 30px;
+    line-height: 55px;
+}
+
+.container {
+    width: 980px;
+    margin:  70px auto 5px;
+    position: relative;
+    background-color: #ededed;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #19aa6f;
+}
+
+.logodesa {
+    display: inline-block;
+    width: 80px;
+    height: 103px;
+    background-image: url(../backgroundWeb/contohLogoDesa.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -3px;
+    left: 880px
+}
+
+.pemerintahan ul li {
+    display: inline-block;
+    color: #ebebeb;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: arial;
+    margin-left: 25px;
+    margin-top: 10px;
+    float: left;
+}
+
+.heroimage {
+    height: 300px;
+    background-image: url(../backgroundWeb/mathis-jrdl-h1MJalVSuNQ-unsplash.jpg);
+    background-size: cover;
+    background-position: 0px -90px;
+    border-bottom: 5px solid limegreen;
+}
+
+.desa {
+    display: inline-block;
+    position: absolute;
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    top: 320px;
+    left: 620px;
+    color: white;
+}
+
+.almt {
+    display: inline-block;
+    position: absolute;
+    font-size: 15;
+    font-family: Comic Sans MS;
+    top: 350px;
+    left: 620px;
+    color: white;
+}
+
+.kiri {
+    width: 630px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.kiri h1 {
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color:#19aa6f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 180px;
+    display: inline-block;
+    color: #ebebeb;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.p1 .kantordesa{
+    background-image: url(../backgroundWeb/kantorDesa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.p1 p {
+    color: #242424;
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 12px;
+}
+
+.kiri h2 {
+    width: 180px;
+    font-size: 18px;
+    background-color:#19aa6f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #ebebeb;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.p2 .st {
+    width: 300px;
+    height: 200px;
+    background-image: url(../backgroundWeb/chart.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.kiri .p2 p {
+    color: #242424;
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 12px;
+}
+
+.kiri h3 {
+    width: 180px;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color:#19aa6f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #ebebeb;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.p3 .event {
+    width: 300px;
+    height: 169px;
+    background-image: url(../backgroundWeb/event.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.p3 p {
+    color: #242424;
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 12px;
+}
+
+.kanan {
+    width: 330px;
+    float: right;
+    padding: 10px;
+    border-sizing: border-box;
+}
+
+.kanan h1 {
+    font-size: 18px;
+    background-color: #b5fb6e;
+    margin: 10px 0px 10px 0px;
+    width: 200px;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.fotokepdes {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    background-image: url(../backgroundWeb/kades.jpg);
+    background-size: cover;
+    background-position: 0px -10px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.fotokepdes:hover {
+    margin-left: 50px;
+
+}
+
+.jabatan {
+    font-size: 15px;
+    background-color: #b0dc10;
+    margin: 5px 0px 10px 0px;
+    width: 250px;
+    display: inline-block;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.p1 p {
+    color: #242424;
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 12px;
+}
+
+.fotosekdes {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    background-image: url(../backgroundWeb/sekdes.jpg);
+    background-size: cover;
+    background-position: 0px -10px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    transform: .3s;
+}
+
+.fotosekdes:hover {
+    margin-left: 50px;
+}
+
+.jabsekdes{
+    font-size: 15px;
+    background-color: #b0dc10;
+    margin: 5px 0px 10px 0px;
+    width: 250px;
+    display: inline-block;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.p2 p {
+    color: #242424;
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 12px;
+}
+
+.fotokaurumum {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    background-image: url(../backgroundWeb/kaurumum.jpg);
+    background-size: cover;
+    background-position: 0px -10px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.fotokaurumum:hover {
+    margin-left: 50px;
+}
+
+
+.jabkaurumum{
+    font-size: 15px;
+    background-color: #b0dc10;
+    margin: 5px 0px 10px 0px;
+    width: 250px;
+    display: inline-block;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.p3 p {
+    color: #242424;
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 12px;
+}
+
+.copyrigt {
+    background-color: #19aa6f;
+    height: 130px;
+}
+
+.copyrigt h3 {
+    color: #ebebeb;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+    line-height: 40px;
+}
+
+.copyrigt h4 {
+    color: #ebebeb;
+    font-size: 14px;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    line-height: 10px;
+}
+
+.copyrigt h5 {
+    color: #ebebeb;
+    font-size: 14px;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.sosmed {
+    position: relative;
+}
+
+.sosmed .yt img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    left: 398px;
+}
+
+.sosmed .fb img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    left: 450px;
+}
+
+.sosmed .ig img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    left: 500px;
+}
+
+.sosmed .tw img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    left: 550px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ *  * For modern browsers
+ *   * 1. The space content is one way to avoid an Opera bug when the
+ *    *    contenteditable attribute is included anywhere else in the document.
+ *     *    Otherwise it causes space to appear at the top and bottom of elements
+ *      *    that are clearfixed.
+ *       * 2. The use of `table` rather than `block` is only necessary if using
+ *        *    `:before` to contain the top-margins of child elements.
+ *         */
+.cf:before,
+.cf:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.cf:after {
+	clear: both;
+}
+
+/**
+ *  * For IE 6/7 only
+ *   * Include this rule to trigger hasLayout and contain floats.
+ *    */
+.cf {
+	*zoom: 1;
+}
+
