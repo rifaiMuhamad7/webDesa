@@ -1,0 +1,18 @@
+body {
+  min-height: 3000px;
+  background-color: #ededed;
+}
+
+#tentangdesa p {
+  text-align: justify;
+  text-indent: 25px;
+}
+
+#potensidesa,
+#aparaturdesa {
+  background-color: #78c665;
+}
+
+section {
+  padding-top: 5rem;
+}
